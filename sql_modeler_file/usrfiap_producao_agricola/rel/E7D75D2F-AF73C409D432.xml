@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="E7D75D2F-01EC-F10D-9ABE-AF73C409D432" mainViewID="A78626C4-1923-AE91-A73E-19FF156CF1A2">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:31:35 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>localFIAP</connName>
+<connUser>system</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

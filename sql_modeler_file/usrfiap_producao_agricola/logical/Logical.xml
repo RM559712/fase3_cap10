@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="836A00C2-7E40-45AB-62A5-8A5E7F76FD00" mainViewID="06A53484-C22C-7E5F-4D57-0464DAE3E13D">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:31:33 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

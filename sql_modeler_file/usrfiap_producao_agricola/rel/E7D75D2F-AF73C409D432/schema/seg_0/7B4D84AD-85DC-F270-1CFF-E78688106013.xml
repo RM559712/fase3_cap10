@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="USRFIAP" directorySegmentName="seg_0" id="7B4D84AD-85DC-F270-1CFF-E78688106013">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:55:52 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<importedID>DDDF46AE-96E8-BD31-A9AD-958D4FC37651</importedID>
+</SchemaObject>

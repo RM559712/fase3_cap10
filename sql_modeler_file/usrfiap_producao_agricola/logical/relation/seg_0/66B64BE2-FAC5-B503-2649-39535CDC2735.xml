@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SYS_C008516" directorySegmentName="seg_0" id="66B64BE2-FAC5-B503-2649-39535CDC2735">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:56:06 UTC</createdTime>
+<generatorID>19DD4F61-0C30-B5C9-1D94-EE9F1A3415DB</generatorID>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<engineerTo>
+<item key="E7D75D2F-01EC-F10D-9ABE-AF73C409D432" value="true"/>
+</engineerTo>
+<sourcePk>7ECBE70A-FA73-733E-BC37-B0CD40BE0D58</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2105473A-C9C1-8A10-0B72-EA3C1994F646</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ADBA211D-6189-DC03-25C4-4B9E53ECC978</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

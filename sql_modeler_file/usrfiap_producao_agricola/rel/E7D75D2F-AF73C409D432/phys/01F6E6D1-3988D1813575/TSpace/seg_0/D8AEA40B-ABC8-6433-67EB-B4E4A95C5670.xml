@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="SYSTEM" directorySegmentName="seg_0" id="D8AEA40B-ABC8-6433-67EB-B4E4A95C5670">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>USRFIAP</sourceObjSchema>
+<sourceObjName>SYSTEM</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:55:23 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

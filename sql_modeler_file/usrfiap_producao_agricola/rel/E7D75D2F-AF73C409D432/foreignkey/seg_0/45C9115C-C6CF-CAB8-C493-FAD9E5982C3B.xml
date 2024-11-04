@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="45C9115C-C6CF-CAB8-C493-FAD9E5982C3B" containerWithKeyObject="EC6165DB-574B-1E14-29F4-23A6E53C799E" localFKIndex="E455D5B2-719D-1BA9-FD97-F90DEFA4B5CD" name="SYS_C008509">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>USRFIAP</sourceObjSchema>
+<sourceObjName>SYS_C008509</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:55:52 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<importedID>709539E8-9E8F-F46E-F1BC-1BF95CE0C2C2</importedID>
+<referredTableLongName>USRFIAP.T_PRODUTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C5099AC7-01F7-A1CF-B114-AF4D5778E49D</referredTableID>
+<keyObject>1D2255E3-34BF-848F-79DC-A6960345CF37</keyObject>
+<referredKeyID>1D2255E3-34BF-848F-79DC-A6960345CF37</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>idt_produto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

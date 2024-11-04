@@ -1,0 +1,213 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE022AF9-3798-ABFD-C890-C420EA11FCDF" schemaObject="7B4D84AD-85DC-F270-1CFF-E78688106013" name="T_PRODUCAO_HISTORICA">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>USRFIAP</sourceObjSchema>
+<sourceObjName>T_PRODUCAO_HISTORICA</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:55:52 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<importedID>5F091BC8-6CF9-4FF7-3863-67FFF9047012</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idt_producao_historica" id="3F52A73C-1909-E5C4-292D-5A494CC0E577">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_PRODUCAO_HISTORICA</sourceObjSchema>
+<sourceObjName>idt_producao_historica</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:55:52 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>DBDF16A1-92B5-E862-01AD-7BE7D952BFF7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="idt_produto" id="0ED4CBD8-F4EC-AE77-4662-AAF3E6EA4334">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_PRODUCAO_HISTORICA</sourceObjSchema>
+<sourceObjName>idt_produto</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:55:52 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>4B866477-56B3-F028-746E-329B9042FB2B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AE87D75-AD3D-DCC0-5DBF-E9B49EB993EA" referredColumn="CF96DE74-39D5-DD5E-D78F-4FBA2D6EC3D8"/>
+</associations>
+</Column>
+<Column name="idt_safra" id="97B14160-28BD-7A25-7A20-B2D156DD9E98">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_PRODUCAO_HISTORICA</sourceObjSchema>
+<sourceObjName>idt_safra</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:55:52 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>55546479-ECF4-E4C9-D013-FFF7DD74DBF6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19DD4F61-0C30-B5C9-1D94-EE9F1A3415DB" referredColumn="2501EF40-A46F-33EE-52A0-DC8BC654108F"/>
+</associations>
+</Column>
+<Column name="qtd_area_plantada" id="0373BDDD-1EB2-A7D2-3910-9C0F6300CF64">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_PRODUCAO_HISTORICA</sourceObjSchema>
+<sourceObjName>qtd_area_plantada</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:55:52 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>15EAC807-9D00-238E-DE04-0000B92DCCC7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtd_producao" id="6F79EF79-1B97-C127-ADA5-BCDC6AE8568A">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_PRODUCAO_HISTORICA</sourceObjSchema>
+<sourceObjName>qtd_producao</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:55:52 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>6037A794-1801-1075-18C5-26358C45A2D7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="val_produtividade" id="7E9BF90F-DBF6-E123-FAA5-674A84F4E38D">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_PRODUCAO_HISTORICA</sourceObjSchema>
+<sourceObjName>val_produtividade</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:55:52 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>990BFD14-9AE9-2409-0BAD-4CF1E90C64A0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="des_visao" id="FF145933-EFC1-67C2-B4F7-BA0053F9BC66">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_PRODUCAO_HISTORICA</sourceObjSchema>
+<sourceObjName>des_visao</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:55:52 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>3F923BF1-B208-DEC8-C920-5163599B02D2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_regiao" id="E57347C8-54B3-7CCA-BB8D-C643845EDB54">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_PRODUCAO_HISTORICA</sourceObjSchema>
+<sourceObjName>nom_regiao</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:55:52 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>B4B1C417-6791-0C4D-85D4-18210DB38BAF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sig_uf" id="E3EF1B68-7CFC-3AF2-2E06-E7C92D50BDDF">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_PRODUCAO_HISTORICA</sourceObjSchema>
+<sourceObjName>sig_uf</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:55:52 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>9A4BFDD1-C8AD-C7DC-8304-FDF1B5F2668B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99A0E9CE-A417-01FE-6ACB-5E6C287F9ECB" schemaObject="7B4D84AD-85DC-F270-1CFF-E78688106013" name="T_PRODUCAO_HISTORICA_PK">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>USRFIAP</sourceObjSchema>
+<sourceObjName>SYS_C008514</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:55:52 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<importedID>1EBE470B-1315-A8D0-50BD-7DEFB45168BD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F52A73C-1909-E5C4-292D-5A494CC0E577"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2FDA082-14F0-E63E-C269-DB2FD5B857BC" name="SYS_C008515">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:55:52 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ED4CBD8-F4EC-AE77-4662-AAF3E6EA4334"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BB40A51-5F6C-5867-3A4A-D3542ECE8849" name="SYS_C008516">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:55:52 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97B14160-28BD-7A25-7A20-B2D156DD9E98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="usrfiap_producao_agricola" id="9B85B2BB-A3D0-27FF-2310-394007329D4A" version="3.5">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-04 21:31:33 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9B85B2BB-A3D0-27FF-2310-394007329D4A</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="AA33566F-99B8-FBD7-3226-1F3A1466B41D">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
