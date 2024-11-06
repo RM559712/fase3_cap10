@@ -16,7 +16,7 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2105473A-C9C1-8A10-0B72-EA3C1994F646" otype="Entity" vid="B74A2254-10F4-8E0D-D2A3-30D8D97C721E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="371" y="20" width="197" height="102"/>
+<bounds x="601" y="18" width="197" height="102"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2C4324E6-7E28-036E-A53B-1DEED8BFF233" otype="Entity" vid="B634A4B5-9000-D436-E621-1BACA0FEAC61">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -24,7 +24,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="ADBA211D-6189-DC03-25C4-4B9E53ECC978" otype="Entity" vid="EFA55FE5-6A43-8BB0-F1A4-E3230C564F75">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="20" y="420" width="306" height="206"/>
+<bounds x="507" y="282" width="306" height="206"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D627F894-D819-1F72-17DE-9F23B2CD54A8" otype="Entity" vid="0D0CE470-886D-99BA-5536-B30B1A5ACF00">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -46,8 +46,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="436" y="122"/>
-<point x="225" y="420"/>
+<point x="699" y="120"/>
+<point x="699" y="282"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="ACA392FD-A650-1A48-AF19-54BFF0DE8900" otype="Relation" vid_source="B74A2254-10F4-8E0D-D2A3-30D8D97C721E" vid_target="0D0CE470-886D-99BA-5536-B30B1A5ACF00">
@@ -55,8 +55,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="371" y="71"/>
-<point x="291" y="71"/>
+<point x="601" y="85"/>
+<point x="291" y="85"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D3F9BA41-771D-A693-17C1-09A63311549D" otype="Relation" vid_source="B634A4B5-9000-D436-E621-1BACA0FEAC61" vid_target="EFA55FE5-6A43-8BB0-F1A4-E3230C564F75">
@@ -64,8 +64,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="133" y="360"/>
-<point x="133" y="420"/>
+<point x="246" y="323"/>
+<point x="507" y="323"/>
 </points>
 </Connector>
 </connectors>
