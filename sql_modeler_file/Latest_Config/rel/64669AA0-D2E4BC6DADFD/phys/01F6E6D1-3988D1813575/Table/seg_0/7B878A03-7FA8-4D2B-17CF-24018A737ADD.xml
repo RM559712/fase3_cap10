@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="T_PRODUCAO" directorySegmentName="seg_0" id="7B878A03-7FA8-4D2B-17CF-24018A737ADD">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<schemaObject>8D5AA3B3-FFCC-FDE2-774B-436E622445D6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B506DA6D-94E3-D77D-2221-FC989D48AD1D</segment>
+<tableSpace>DCC5FDA4-BAF7-2B8C-9665-93B85AC7032B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="qtd_area_plantada_mil_ha" id="1C145DAE-A129-B5EA-4665-4600914CFC5A">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="idt_producao" id="267B65EC-FEDD-759F-94F0-9B56BC6C614C">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="idt_uf" id="52D4F63A-6EAC-716D-183D-B2E4BD359786">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="qtd_produtividade_mil_ha_mil_t" id="59144A59-D388-5396-AD96-3081319BA29D">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="qtd_producao_mil_t" id="95CD850E-2810-4D91-DC4A-A6DD147A37C9">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="idt_safra" id="D3522DB5-4DC5-02F5-3B16-962524169343">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="idt_levantamento" id="E0250709-1C76-6630-069E-D6EC6941E486">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="idt_ano_agricola" id="EB934F41-B91A-A6A6-2221-1AF0CBFBB43E">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="idt_produto" id="F8190DDB-714F-71AF-945C-0EECD487E54B">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008550" id="040475C6-4FEB-B875-CA83-DB380D2B6F29">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008552" id="4964E779-988E-477D-FE10-08FF9A780EC9">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008548" id="B50CEA90-1C62-E609-09F7-A798C6F8A99B">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008551" id="D382E460-6C4E-17C0-7B2B-800DE6ED8243">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008549" id="E4E84B54-8D61-D874-3AA0-047F6F41C9F8">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_PRODUCAO_PK" id="05E001B3-FD79-D32C-8FC9-E36480C106EE">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<schemaObject>8D5AA3B3-FFCC-FDE2-774B-436E622445D6</schemaObject>
+<segment>EB9FC86B-0A7D-9824-0E2B-5B22FEB25A38</segment>
+<tableSpace>DCC5FDA4-BAF7-2B8C-9665-93B85AC7032B</tableSpace>
+<indexSegment>EB9FC86B-0A7D-9824-0E2B-5B22FEB25A38</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6F94176-9687-7CEC-486F-B19E3C031124" schemaObject="8D5AA3B3-FFCC-FDE2-774B-436E622445D6" name="T_PRODUTO">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>USRFIAP</sourceObjSchema>
+<sourceObjName>T_PRODUTO</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idt_produto" id="D4456657-A245-CD44-541A-69B3B2C3402C">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_PRODUTO</sourceObjSchema>
+<sourceObjName>idt_produto</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_produto" id="FF3209B8-2775-6DAB-5B1B-8208EA147C61">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_PRODUTO</sourceObjSchema>
+<sourceObjName>nom_produto</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC0118B1-0F93-F7A1-A2F4-8910E472D067" schemaObject="8D5AA3B3-FFCC-FDE2-774B-436E622445D6" name="T_PRODUTO_PK">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>USRFIAP</sourceObjSchema>
+<sourceObjName>SYS_C008545</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4456657-A245-CD44-541A-69B3B2C3402C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

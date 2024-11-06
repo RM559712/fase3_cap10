@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="287D4AFC-5008-C851-7DCE-6BD55222F3F6" name="T PRODUCAO">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>7B878A03-7FA8-4D2B-17CF-24018A737ADD</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idt producao" id="2D66C766-1667-950C-9247-97C226B6D486">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>267B65EC-FEDD-759F-94F0-9B56BC6C614C</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd area plantada mil ha" id="99345A61-7AC5-650A-6267-06A749629FC9">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>1C145DAE-A129-B5EA-4665-4600914CFC5A</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd producao mil t" id="2599856E-A25D-E0E7-F22B-6004118A38F0">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>95CD850E-2810-4D91-DC4A-A6DD147A37C9</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd produtividade mil ha mil t" id="8838342E-9899-92D2-8D66-8308E5645B81">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>59144A59-D388-5396-AD96-3081319BA29D</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idt ano agricola" id="DEA57FF6-4AEC-CF43-6E99-759FC6FC3872">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>24FCDA3E-DC38-1A3F-40EA-AB747588479A</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0199B839-C60E-E985-0CAA-396012C7D2C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idt safra" id="03575925-48A9-CF18-21AE-23C681294B21">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>07BF69DD-2BAE-20CE-3135-4E142415D602</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>55CD3551-1B82-080E-6AE7-374BF43AA62B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idt uf" id="2C270C12-61D1-6B85-ADE6-675BF97736A2">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>DF82D0DE-027E-B478-CF52-0EE9429623F7</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A01B50D1-7A2C-AAD5-5CE4-1BDC0B7123B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idt produto" id="354A3E67-CDF7-5672-BCFE-8D0E2DCBABDD">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>26905FC7-1D95-5974-865C-57A1DFF3D3B4</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8445A103-098D-5F8C-C53C-5342F1021410</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idt levantamento" id="3D88821A-1227-CFEC-6292-368A964D9D91">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>65870F77-2F46-1CD0-56DA-D1333A290356</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>36A270ED-1A1F-A829-B694-50F794AFBA64</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D7EFEDF-9A5F-F49A-0E56-D02C82A09A3C" name="T PRODUCAO PK">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>05E001B3-FD79-D32C-8FC9-E36480C106EE</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D66C766-1667-950C-9247-97C226B6D486</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

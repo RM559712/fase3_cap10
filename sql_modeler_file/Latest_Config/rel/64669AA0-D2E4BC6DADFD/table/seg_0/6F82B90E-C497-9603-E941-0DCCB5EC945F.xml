@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F82B90E-C497-9603-E941-0DCCB5EC945F" schemaObject="8D5AA3B3-FFCC-FDE2-774B-436E622445D6" name="T_UF">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>USRFIAP</sourceObjSchema>
+<sourceObjName>T_UF</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idt_uf" id="2F811BCD-65B9-0647-806D-1A2D751C4E89">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_UF</sourceObjSchema>
+<sourceObjName>idt_uf</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sig_uf" id="1E711062-03CE-732E-9503-C983A65588D3">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_UF</sourceObjSchema>
+<sourceObjName>sig_uf</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC7781CD-B063-DA6F-88A6-DD8AD341BBAD" schemaObject="8D5AA3B3-FFCC-FDE2-774B-436E622445D6" name="T_UF_PK">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>USRFIAP</sourceObjSchema>
+<sourceObjName>SYS_C008544</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F811BCD-65B9-0647-806D-1A2D751C4E89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

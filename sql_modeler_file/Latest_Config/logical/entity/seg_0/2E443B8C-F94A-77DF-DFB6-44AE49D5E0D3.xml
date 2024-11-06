@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E443B8C-F94A-77DF-DFB6-44AE49D5E0D3" name="T LEVANTAMENTO">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>9610E7F3-CAD8-F669-DD22-B9AED36789F8</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idt levantamento" id="36A270ED-1A1F-A829-B694-50F794AFBA64">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>3F175039-C2C0-2F09-8332-CA0E6A01813A</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des levantamento" id="0C196849-F97B-0EF1-636A-8B913BD28C94">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>4D716603-4950-C756-4072-A62F75553243</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CCD96F58-68F5-EBE9-8A73-3D4A3AB1C4FE" name="T LEVANTAMENTO PK">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>C8EFB33B-1C68-2DD6-32AC-4F4E8A096813</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>36A270ED-1A1F-A829-B694-50F794AFBA64</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

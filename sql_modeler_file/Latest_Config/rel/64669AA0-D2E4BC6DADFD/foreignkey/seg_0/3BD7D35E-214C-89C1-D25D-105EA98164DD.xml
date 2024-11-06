@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3BD7D35E-214C-89C1-D25D-105EA98164DD" containerWithKeyObject="7B878A03-7FA8-4D2B-17CF-24018A737ADD" localFKIndex="4964E779-988E-477D-FE10-08FF9A780EC9" name="SYS_C008552">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>USRFIAP</sourceObjSchema>
+<sourceObjName>SYS_C008552</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<referredTableLongName>USRFIAP.T_LEVANTAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9610E7F3-CAD8-F669-DD22-B9AED36789F8</referredTableID>
+<keyObject>C8EFB33B-1C68-2DD6-32AC-4F4E8A096813</keyObject>
+<referredKeyID>C8EFB33B-1C68-2DD6-32AC-4F4E8A096813</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>idt_levantamento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

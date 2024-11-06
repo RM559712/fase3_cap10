@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="USRFIAP" directorySegmentName="seg_0" id="A904906A-00AE-E5A9-B2B4-B468FEDE4D61">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjName>USRFIAP</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<schemaObject>8D5AA3B3-FFCC-FDE2-774B-436E622445D6</schemaObject>
+</UserOraclev10g>

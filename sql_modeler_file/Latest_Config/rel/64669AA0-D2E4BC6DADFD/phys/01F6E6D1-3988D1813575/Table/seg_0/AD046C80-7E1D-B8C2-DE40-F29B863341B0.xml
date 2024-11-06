@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="T_ANO_AGRICOLA" directorySegmentName="seg_0" id="AD046C80-7E1D-B8C2-DE40-F29B863341B0">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<schemaObject>8D5AA3B3-FFCC-FDE2-774B-436E622445D6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B506DA6D-94E3-D77D-2221-FC989D48AD1D</segment>
+<tableSpace>DCC5FDA4-BAF7-2B8C-9665-93B85AC7032B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="idt_ano_agricola" id="38AEF925-6184-D4E1-E7F2-EBAAC43A3085">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="txt_ano_agricola" id="EEBD0712-E18A-E478-74CF-C37ECE4C89C2">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_ANO_AGRICOLA_PK" id="8D2FDE57-FCC3-DF96-B68F-853310C38EFA">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:47 UTC</createdTime>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<schemaObject>8D5AA3B3-FFCC-FDE2-774B-436E622445D6</schemaObject>
+<segment>EB9FC86B-0A7D-9824-0E2B-5B22FEB25A38</segment>
+<tableSpace>DCC5FDA4-BAF7-2B8C-9665-93B85AC7032B</tableSpace>
+<indexSegment>EB9FC86B-0A7D-9824-0E2B-5B22FEB25A38</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

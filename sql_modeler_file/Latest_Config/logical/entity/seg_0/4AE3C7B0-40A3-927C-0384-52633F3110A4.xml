@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4AE3C7B0-40A3-927C-0384-52633F3110A4" name="T UF">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>6F82B90E-C497-9603-E941-0DCCB5EC945F</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idt uf" id="A01B50D1-7A2C-AAD5-5CE4-1BDC0B7123B7">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>2F811BCD-65B9-0647-806D-1A2D751C4E89</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sig uf" id="AD4A7D04-D42D-E7FA-BBB3-ACC087DCBAB7">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>1E711062-03CE-732E-9503-C983A65588D3</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F575D338-B267-5992-BB4C-3BC7913B6FD3" name="T UF PK">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-05 00:12:52 UTC</createdTime>
+<generatorID>EC7781CD-B063-DA6F-88A6-DD8AD341BBAD</generatorID>
+<ownerDesignName>Latest_Config</ownerDesignName>
+<engineerTo>
+<item key="64669AA0-8EB9-BF90-37FF-D2E4BC6DADFD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A01B50D1-7A2C-AAD5-5CE4-1BDC0B7123B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
