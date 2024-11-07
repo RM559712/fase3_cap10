@@ -40,11 +40,11 @@ By Grupo 26 - Entrega até 13/11/2024
 ________________________________________
 
 Entregáveis:
-•	Diagrama Entidade-Relacionamento (MER)
-•	Diagrama do Modelo Relacional
-•	Código SQL para criação das tabelas
-•	Consultas SQL para análise dos dados
-•	Dicionário de Dados
+•	Diagrama Entidade-Relacionamento (MER)<br>
+•	Diagrama do Modelo Relacional<br>
+•	Código SQL para criação das tabelas<br>
+•	Consultas SQL para análise dos dados<br>
+•	Dicionário de Dados<br>
 
 **Estrutura de Diretório**
 
@@ -62,4 +62,4 @@ Entregáveis:
     - create_dat_producao_agricola.sql - Arquivo de criação do banco de dados antes da normalizacao
 **docs** - Arquivos com informações sobre cada exercicio por ordem listada na descricao dos exercicios
     - Analise de dados e Identificacao de Entidades e Atributos [docs/1_Analise_de_Dados_e_Ident_Entidades_Atrib.md]
-    
+
