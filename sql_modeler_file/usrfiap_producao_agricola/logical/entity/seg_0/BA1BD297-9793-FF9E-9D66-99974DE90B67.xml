@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA1BD297-9793-FF9E-9D66-99974DE90B67" name="T UF">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:09:30 UTC</createdTime>
+<generatorID>CEA26049-CCEA-B334-3BE4-33030256598E</generatorID>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<engineerTo>
+<item key="E7D75D2F-01EC-F10D-9ABE-AF73C409D432" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idt uf" id="6195DC16-4D40-BC9F-8478-D876062F8671">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:09:30 UTC</createdTime>
+<generatorID>3B20ED4E-14F3-9FE6-D21E-A87FDC60B293</generatorID>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<engineerTo>
+<item key="E7D75D2F-01EC-F10D-9ABE-AF73C409D432" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sig uf" id="48FE5CD1-8222-B44C-54C3-B2BECB0E8465">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:09:30 UTC</createdTime>
+<generatorID>23E48333-EC85-3DF5-3B8E-28C2BFA2D578</generatorID>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<engineerTo>
+<item key="E7D75D2F-01EC-F10D-9ABE-AF73C409D432" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="555487EA-0359-8A2D-E02F-66D23273BB4A" name="T UF PK">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:09:30 UTC</createdTime>
+<generatorID>821CA46F-972C-33A3-159D-0765BCC7F279</generatorID>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<engineerTo>
+<item key="E7D75D2F-01EC-F10D-9ABE-AF73C409D432" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6195DC16-4D40-BC9F-8478-D876062F8671</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

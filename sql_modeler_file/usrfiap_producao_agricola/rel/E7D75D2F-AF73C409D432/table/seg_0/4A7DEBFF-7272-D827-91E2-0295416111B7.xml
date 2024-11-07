@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A7DEBFF-7272-D827-91E2-0295416111B7" schemaObject="7B4D84AD-85DC-F270-1CFF-E78688106013" name="T_SAFRA">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>USRFIAP</sourceObjSchema>
+<sourceObjName>T_SAFRA</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<importedID>B2FD9FB6-C19E-67B0-DBAB-CC596AEA74E6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idt_safra" id="91856C44-841D-02FD-C6E0-3F7AC1CBB394">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_SAFRA</sourceObjSchema>
+<sourceObjName>idt_safra</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>B9157AD2-1F49-481C-6EB8-9ACB38BCA98D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="des_safra" id="2DB467C2-7AEB-EE1C-D572-CFC9C39A3C5A">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_SAFRA</sourceObjSchema>
+<sourceObjName>des_safra</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>50B29673-073C-2EB4-A54A-6B01EC11D23B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69E96B30-73E7-3DBA-72CA-7181F1BEF253" schemaObject="7B4D84AD-85DC-F270-1CFF-E78688106013" name="T_SAFRA_PK">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>USRFIAP</sourceObjSchema>
+<sourceObjName>SYS_C008554</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<importedID>E72B1F4E-A532-6748-7A1E-72932CA5F501</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91856C44-841D-02FD-C6E0-3F7AC1CBB394"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

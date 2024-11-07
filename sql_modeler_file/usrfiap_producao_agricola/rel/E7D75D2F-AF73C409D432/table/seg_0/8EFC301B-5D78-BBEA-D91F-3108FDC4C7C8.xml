@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8EFC301B-5D78-BBEA-D91F-3108FDC4C7C8" schemaObject="7B4D84AD-85DC-F270-1CFF-E78688106013" name="T_ANO_AGRICOLA">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>USRFIAP</sourceObjSchema>
+<sourceObjName>T_ANO_AGRICOLA</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<importedID>FCA57775-823B-438B-6061-3071A6C64FA4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idt_ano_agricola" id="038D2F5C-F181-0921-FEF3-A49218DDD759">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_ANO_AGRICOLA</sourceObjSchema>
+<sourceObjName>idt_ano_agricola</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>985EFACC-04C9-4E45-3906-1B75BDAD60AB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_ano_inicio" id="E800D664-A1D6-1876-7FCA-0BA76F2358C9">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_ANO_AGRICOLA</sourceObjSchema>
+<sourceObjName>num_ano_inicio</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>FB3C3DB1-DC0F-FCC6-E783-413F9D4E82E6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_ano_fim" id="26BB1AC3-E749-4797-C227-B2B42A7AEA70">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_ANO_AGRICOLA</sourceObjSchema>
+<sourceObjName>num_ano_fim</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>E9D2DB63-16DA-58C2-D162-8A318432DEEC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="904828A8-E822-5FA1-68BE-1F30F718FA3B" schemaObject="7B4D84AD-85DC-F270-1CFF-E78688106013" name="T_ANO_AGRICOLA_PK">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>USRFIAP</sourceObjSchema>
+<sourceObjName>SYS_C008553</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<importedID>BEC1F2AB-2792-CED4-7F18-9AAD6372C055</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="038D2F5C-F181-0921-FEF3-A49218DDD759"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

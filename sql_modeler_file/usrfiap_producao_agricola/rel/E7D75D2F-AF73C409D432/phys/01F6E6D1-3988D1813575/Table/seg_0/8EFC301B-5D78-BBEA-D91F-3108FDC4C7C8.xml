@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="T_ANO_AGRICOLA" directorySegmentName="seg_0" id="8EFC301B-5D78-BBEA-D91F-3108FDC4C7C8">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<schemaObject>7B4D84AD-85DC-F270-1CFF-E78688106013</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4B61A605-24DE-1C6A-B6FA-02603BF62AA4</segment>
+<tableSpace>D8AEA40B-ABC8-6433-67EB-B4E4A95C5670</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="idt_ano_agricola" id="038D2F5C-F181-0921-FEF3-A49218DDD759">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="num_ano_fim" id="26BB1AC3-E749-4797-C227-B2B42A7AEA70">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="num_ano_inicio" id="E800D664-A1D6-1876-7FCA-0BA76F2358C9">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_ANO_AGRICOLA_PK" id="904828A8-E822-5FA1-68BE-1F30F718FA3B">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<schemaObject>7B4D84AD-85DC-F270-1CFF-E78688106013</schemaObject>
+<segment>44946F2E-434F-DAE7-1931-6A38B7580B5B</segment>
+<tableSpace>D8AEA40B-ABC8-6433-67EB-B4E4A95C5670</tableSpace>
+<indexSegment>44946F2E-434F-DAE7-1931-6A38B7580B5B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

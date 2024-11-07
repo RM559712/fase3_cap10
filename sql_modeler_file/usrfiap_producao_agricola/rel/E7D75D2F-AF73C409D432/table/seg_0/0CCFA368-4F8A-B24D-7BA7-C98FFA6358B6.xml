@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CCFA368-4F8A-B24D-7BA7-C98FFA6358B6" schemaObject="7B4D84AD-85DC-F270-1CFF-E78688106013" name="T_LEVANTAMENTO">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>USRFIAP</sourceObjSchema>
+<sourceObjName>T_LEVANTAMENTO</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<importedID>8B26197D-79AA-B1FD-F68A-C74C94CAD7DA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idt_levantamento" id="3221B352-C7DC-EA60-F74C-6CF3D782B633">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_LEVANTAMENTO</sourceObjSchema>
+<sourceObjName>idt_levantamento</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>37ACF8BF-2A61-9C6F-8ECE-EC80B02E86D6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="des_levantamento" id="013C0E7C-6C80-3B9F-5393-C50EB67B0A10">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>T_LEVANTAMENTO</sourceObjSchema>
+<sourceObjName>des_levantamento</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>EB7653B7-06E7-7154-C9CC-84A692E6D52A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="238CFB01-693A-1479-F021-43A636DB6404" schemaObject="7B4D84AD-85DC-F270-1CFF-E78688106013" name="T_LEVANTAMENTO_PK">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>USRFIAP</sourceObjSchema>
+<sourceObjName>SYS_C008557</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<importedID>7DE85FA9-C755-5D8B-810E-F3EDFBED285D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3221B352-C7DC-EA60-F74C-6CF3D782B633"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

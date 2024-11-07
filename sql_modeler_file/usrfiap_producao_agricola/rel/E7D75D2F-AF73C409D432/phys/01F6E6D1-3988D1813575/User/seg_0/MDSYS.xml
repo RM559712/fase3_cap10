@@ -21,5 +21,15 @@
 <createdTime>2024-11-04 21:55:52 UTC</createdTime>
 <ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
 </QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="9CFFDEAD-D623-034C-E747-FAAEE379F2B5">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem2" id="E38C209E-A272-FA9D-FB68-59A5D22C0A29">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+</QuotaItem>
 </quotaItems>
 </UserOraclev10g>

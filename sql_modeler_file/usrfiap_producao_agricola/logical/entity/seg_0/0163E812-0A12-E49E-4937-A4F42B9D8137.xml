@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0163E812-0A12-E49E-4937-A4F42B9D8137" name="T PRODUTO">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:09:30 UTC</createdTime>
+<generatorID>68FF4B30-B45C-76C6-CD3A-BA09E7C2B3E1</generatorID>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<engineerTo>
+<item key="E7D75D2F-01EC-F10D-9ABE-AF73C409D432" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idt produto" id="02565DE1-A47D-75F0-C6CA-1EE8BADF94D0">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:09:30 UTC</createdTime>
+<generatorID>40566E19-5EC1-D20F-1257-62A179460C6D</generatorID>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<engineerTo>
+<item key="E7D75D2F-01EC-F10D-9ABE-AF73C409D432" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom produto" id="7D4850E1-4ED8-4E55-B2F8-B4027A7006EF">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:09:30 UTC</createdTime>
+<generatorID>9C5D8001-EA5B-8CA9-1C44-1E7453AAF73A</generatorID>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<engineerTo>
+<item key="E7D75D2F-01EC-F10D-9ABE-AF73C409D432" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3BE7B0B-F864-6A2C-4B32-262CB09E777C" name="T PRODUTO PK">
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:09:30 UTC</createdTime>
+<generatorID>4A1CAE49-90AE-AC4D-4F4A-0EC8B8174258</generatorID>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<engineerTo>
+<item key="E7D75D2F-01EC-F10D-9ABE-AF73C409D432" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02565DE1-A47D-75F0-C6CA-1EE8BADF94D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -9,5 +9,8 @@
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="AA33566F-99B8-FBD7-3226-1F3A1466B41D">
 <designStoragePath>C:\</designStoragePath>
 </designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D94F02B4-EC37-5DDB-0C78-8F8FB1A22560">
+<designStoragePath>C:\Users\mfranzoi\OneDrive - Hitachi Vantara\FIAP\FASE03\TRAB_CAP_10\fase3_cap10\sql_modeler_file</designStoragePath>
+</designDescr>
 </usedDesignStorageDescriptors>
 </OSDM_Design>

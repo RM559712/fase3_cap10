@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB8F19B7-592E-1802-093F-E02500F49A33" containerWithKeyObject="B7B34AFF-B343-F996-AA65-37FB6D0D86A1" localFKIndex="511113C4-EB33-F08C-9246-C567E55D2CA8" name="SYS_C008560">
+<sourceConnName>localFIAP</sourceConnName>
+<sourceObjSchema>USRFIAP</sourceObjSchema>
+<sourceObjName>SYS_C008560</sourceObjName>
+<createdBy>mfranzoi</createdBy>
+<createdTime>2024-11-07 01:08:44 UTC</createdTime>
+<ownerDesignName>usrfiap_producao_agricola</ownerDesignName>
+<importedID>C0CF784E-5F15-EA39-B2EE-742A1E3514E0</importedID>
+<referredTableLongName>USRFIAP.T_SAFRA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4A7DEBFF-7272-D827-91E2-0295416111B7</referredTableID>
+<keyObject>69E96B30-73E7-3DBA-72CA-7181F1BEF253</keyObject>
+<referredKeyID>69E96B30-73E7-3DBA-72CA-7181F1BEF253</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>idt_safra</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
