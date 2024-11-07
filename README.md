@@ -6,7 +6,7 @@ By Grupo 26 - Entrega até 13/11/2024
 2.	Criação do Modelo Conceitual (MER)
     o	Criaremos um Modelo Entidade-Relacionamento (MER), destacando as entidades principais (como Produto, Safra, Producao_Anual e Producao_Historica) 
         e os relacionamentos entre elas.
-    o	![Diagrama MER](imgs\MER_Logical_Image_07Nov24v1.png)
+    o	![Diagrama MER](https://github.com/RM559712/fase3_cap10/blob/main/imgs/MER_Logical_Image_07Nov24v1.png)
 
 3.	Aplicação das Regras de Normalização
     o	Aplique as regras de normalização para garantir que o modelo não tenha redundâncias e esteja livre de anomalias de atualização.
