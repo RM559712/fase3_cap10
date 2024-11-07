@@ -1,52 +1,73 @@
--- Script de exclusão delete_dat_producao_agricola.sql
--- Este script deve ser executado com o usuário SYSTEM ou usrfiap para remover as tabelas criadas no schema usrfiap
+-- Script para deletar tabelas do banco de dados Oracle 23c
 
-DECLARE
-    v_confirmacao VARCHAR2(3) := 'SIM';  -- Altere para 'SIM' para prosseguir com a exclusão
 BEGIN
-    -- Listagem das tabelas que serão excluídas no schema usrfiap
-    DBMS_OUTPUT.PUT_LINE('A tabela T_PRODUTO será excluída');
-    DBMS_OUTPUT.PUT_LINE('A tabela T_SAFRA será excluída');
-    DBMS_OUTPUT.PUT_LINE('A tabela T_PRODUCAO_ANUAL será excluída');
-    DBMS_OUTPUT.PUT_LINE('A tabela T_PRODUCAO_HISTORICA será excluída');
+    EXECUTE IMMEDIATE 'DROP TABLE T_PRODUCAO CASCADE CONSTRAINTS';
+EXCEPTION
+    WHEN OTHERS THEN
+        IF SQLCODE = -942 THEN
+            DBMS_OUTPUT.PUT_LINE('Tabela T_PRODUCAO não existe.');
+        ELSE
+            RAISE;
+        END IF;
+END;
+/
 
-    -- Confirmar antes de prosseguir com a exclusão
-    IF v_confirmacao = 'SIM' THEN
-        BEGIN
-            EXECUTE IMMEDIATE 'DROP TABLE usrfiap.T_PRODUCAO_HISTORICA CASCADE CONSTRAINTS';
-            DBMS_OUTPUT.PUT_LINE('Tabela T_PRODUCAO_HISTORICA excluída com sucesso.');
-        EXCEPTION
-            WHEN OTHERS THEN
-                DBMS_OUTPUT.PUT_LINE('Erro ao excluir T_PRODUCAO_HISTORICA: ' || SQLERRM);
-        END;
+BEGIN
+    EXECUTE IMMEDIATE 'DROP TABLE T_LEVANTAMENTO CASCADE CONSTRAINTS';
+EXCEPTION
+    WHEN OTHERS THEN
+        IF SQLCODE = -942 THEN
+            DBMS_OUTPUT.PUT_LINE('Tabela T_LEVANTAMENTO não existe.');
+        ELSE
+            RAISE;
+        END IF;
+END;
+/
 
-        BEGIN
-            EXECUTE IMMEDIATE 'DROP TABLE usrfiap.T_PRODUCAO_ANUAL CASCADE CONSTRAINTS';
-            DBMS_OUTPUT.PUT_LINE('Tabela T_PRODUCAO_ANUAL excluída com sucesso.');
-        EXCEPTION
-            WHEN OTHERS THEN
-                DBMS_OUTPUT.PUT_LINE('Erro ao excluir T_PRODUCAO_ANUAL: ' || SQLERRM);
-        END;
+BEGIN
+    EXECUTE IMMEDIATE 'DROP TABLE T_PRODUTO CASCADE CONSTRAINTS';
+EXCEPTION
+    WHEN OTHERS THEN
+        IF SQLCODE = -942 THEN
+            DBMS_OUTPUT.PUT_LINE('Tabela T_PRODUTO não existe.');
+        ELSE
+            RAISE;
+        END IF;
+END;
+/
 
-        BEGIN
-            EXECUTE IMMEDIATE 'DROP TABLE usrfiap.T_SAFRA CASCADE CONSTRAINTS';
-            DBMS_OUTPUT.PUT_LINE('Tabela T_SAFRA excluída com sucesso.');
-        EXCEPTION
-            WHEN OTHERS THEN
-                DBMS_OUTPUT.PUT_LINE('Erro ao excluir T_SAFRA: ' || SQLERRM);
-        END;
+BEGIN
+    EXECUTE IMMEDIATE 'DROP TABLE T_UF CASCADE CONSTRAINTS';
+EXCEPTION
+    WHEN OTHERS THEN
+        IF SQLCODE = -942 THEN
+            DBMS_OUTPUT.PUT_LINE('Tabela T_UF não existe.');
+        ELSE
+            RAISE;
+        END IF;
+END;
+/
 
-        BEGIN
-            EXECUTE IMMEDIATE 'DROP TABLE usrfiap.T_PRODUTO CASCADE CONSTRAINTS';
-            DBMS_OUTPUT.PUT_LINE('Tabela T_PRODUTO excluída com sucesso.');
-        EXCEPTION
-            WHEN OTHERS THEN
-                DBMS_OUTPUT.PUT_LINE('Erro ao excluir T_PRODUTO: ' || SQLERRM);
-        END;
+BEGIN
+    EXECUTE IMMEDIATE 'DROP TABLE T_SAFRA CASCADE CONSTRAINTS';
+EXCEPTION
+    WHEN OTHERS THEN
+        IF SQLCODE = -942 THEN
+            DBMS_OUTPUT.PUT_LINE('Tabela T_SAFRA não existe.');
+        ELSE
+            RAISE;
+        END IF;
+END;
+/
 
-        DBMS_OUTPUT.PUT_LINE('Todas as tabelas foram excluídas com sucesso.');
-    ELSE
-        DBMS_OUTPUT.PUT_LINE('Operação de exclusão cancelada. Nenhuma tabela foi excluída.');
-    END IF;
+BEGIN
+    EXECUTE IMMEDIATE 'DROP TABLE T_ANO_AGRICOLA CASCADE CONSTRAINTS';
+EXCEPTION
+    WHEN OTHERS THEN
+        IF SQLCODE = -942 THEN
+            DBMS_OUTPUT.PUT_LINE('Tabela T_ANO_AGRICOLA não existe.');
+        ELSE
+            RAISE;
+        END IF;
 END;
 /
