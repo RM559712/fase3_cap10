@@ -1,25 +1,25 @@
 ### **Origem dos Dados** 
 
-CONAB - Link de acesso a area de downloads 
-https://portaldeinformacoes.conab.gov.br/download-arquivos.html
+CONAB - Link de acesso a area de downloads  
+https://portaldeinformacoes.conab.gov.br/download-arquivos.html  
 
-Os arquivos coletados para a implementação da base de dados foram: 
-    https://portaldeinformacoes.conab.gov.br/downloads/arquivos/LevantamentoGraos.txt
-    https://portaldeinformacoes.conab.gov.br/downloads/arquivos/SerieHistoricaGraos.txt
-    Os arquivos também estão salvos em [../source_data/]
+Os arquivos coletados para a implementação da base de dados foram:  
+    https://portaldeinformacoes.conab.gov.br/downloads/arquivos/LevantamentoGraos.txt  
+    https://portaldeinformacoes.conab.gov.br/downloads/arquivos/SerieHistoricaGraos.txt  
+    Os arquivos também estão salvos em [../source_data/]  
 
-**Analise de dados**
-Arquivo: Levantamento de Grãos
-•	ano_agricola: Ano agrícola (objeto)
-•	safra: Tipo de safra (objeto)
-•	uf: Unidade federativa (estado) (objeto)
-•	produto: Nome do produto agrícola (objeto)
-•	id_produto: Identificador numérico do produto (inteiro)
-•	id_levantamento: Identificador numérico do levantamento (inteiro)
-•	dsc_levantamento: Descrição do levantamento (objeto)
-•	area_plantada_mil_ha: Área plantada em mil hectares (float)
-•	producao_mil_t: Produção em mil toneladas (float)
-•	produtividade_mil_ha_mil_t: Produtividade em mil hectares por mil toneladas (float)
+**Analise de dados**  
+Arquivo: Levantamento de Grãos  
+•	ano_agricola: Ano agrícola (objeto)  
+•	safra: Tipo de safra (objeto)  
+•	uf: Unidade federativa (estado) (objeto)  
+•	produto: Nome do produto agrícola (objeto)  
+•	id_produto: Identificador numérico do produto (inteiro)  
+•	id_levantamento: Identificador numérico do levantamento (inteiro)  
+•	dsc_levantamento: Descrição do levantamento (objeto)  
+•	area_plantada_mil_ha: Área plantada em mil hectares (float)  
+•	producao_mil_t: Produção em mil toneladas (float)  
+•	produtividade_mil_ha_mil_t: Produtividade em mil hectares por mil toneladas (float)  
        Arquivo: Série Histórica de Grãos
 •	ano_agricola: Ano agrícola (objeto)
 •	dsc_safra_previsao: Descrição da safra ou previsão (objeto)
