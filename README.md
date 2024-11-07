@@ -1,6 +1,8 @@
 1TIAOR-2024-GRP100 - Fase 3 - Cap 10 - Explorando SQL e tipos de dados na Oracle 
 By Grupo 26 - Entrega até 13/11/2024
 
+# Passos para cada entrega
+
 1.	[Análise de Dados e Identificação de Entidades e Atributos](https://github.com/RM559712/fase3_cap10/blob/main/docs/1_Analise_de_Dados_e_Ident_Entidades_Atrib.md)  
     
 2.	Criação do Modelo Conceitual (MER)  
@@ -12,36 +14,35 @@ By Grupo 26 - Entrega até 13/11/2024
    
 4.	Conversão para o Modelo Lógico Relacional
 - Baseando-se no MER normalizado, crie o Modelo Relacional, convertendo as entidades e relacionamentos do MER para um modelo lógico com tabelas relacionais.
-![Diagrama do Modelo Relacional]()
+![Diagrama do Modelo Relacional](https://github.com/RM559712/fase3_cap10/blob/main/imgs/Relational_Image_07Nov24v1.png)
 
 5.	Definição da Nomenclatura Padronizada
-    o	Criar uma padronização para os nomes das tabelas e colunas, como tb_produto, id_produto, nome_produto, etc., garantindo que a estrutura seja fácil de entender e mantenha consistência.
-    o	Próximo passo: Definir a nomenclatura para cada entidade e seus atributos.
+- Criar uma padronização para os nomes das tabelas e colunas, como tb_produto, id_produto, nome_produto, etc., garantindo que a estrutura seja fácil de entender e   mantenha consistência.
+- [Nomenclatura para cada entidade e seus atributos.]()
 
 6.	Código SQL para Criação das Tabelas
-    o	Escrever o código SQL para a criação das tabelas, definindo chaves primárias e estrangeiras, além das restrições de integridade para garantir consistência nos dados.
-    o	Próximo passo: Criar o código SQL baseado no modelo relacional.
+- Escrever o código SQL para a criação das tabelas, definindo chaves primárias e estrangeiras, além das restrições de integridade para garantir consistência nos dados.
+- [Códigos SQL baseado no modelo relacional.](https://github.com/RM559712/fase3_cap10/blob/main/sql_scripts/create_dat_producao_agricola.sql)
 
-7.	Consultas SQL para Análise dos Dados
-    o	Baseado nas perguntas fornecidas, desenvolver consultas SQL para:
-        	Produção total de uma cultura por estado em uma safra.
-        	Evolução da área plantada de uma cultura ao longo dos anos.
-        	Ranking dos estados com maior produtividade em uma cultura específica.
-    o	Próximo passo: Escrever e testar essas consultas SQL.
+7.	Consultas SQL para Análise dos Dados  
+- Baseado nas perguntas fornecidas, desenvolver consultas SQL para:
+    Produção total de uma cultura por estado em uma safra.
+    Evolução da área plantada de uma cultura ao longo dos anos.
+    Ranking dos estados com maior produtividade em uma cultura específica.
+- [Escrever e testar essas consultas SQL.]()
 
 8.	Documentação com Dicionário de Dados
     o	Descrever cada tabela e seus atributos, incluindo tipos de dados, restrições e propósito de cada coluna.
     o	Próximo passo: Criar o dicionário de dados que documentará o modelo final.
-________________________________________
 
-Entregáveis:<br>
-•	Diagrama Entidade-Relacionamento (MER)<br>
-•	Diagrama do Modelo Relacional<br>
-•	Código SQL para criação das tabelas<br>
-•	Consultas SQL para análise dos dados<br>
-•	Dicionário de Dados<br>
+# Resumo dos Entregáveis:  
+•	Diagrama Entidade-Relacionamento (MER)  
+•	Diagrama do Modelo Relacional  
+•	Código SQL para criação das tabelas  
+•	Consultas SQL para análise dos dados  
+•	Dicionário de Dados  
 
-**Estrutura de Diretório**
+# **Estrutura de Diretório**
 
 **imgs** - Imagens disponiveis dos exercicios listados acima <br>
 **source_data** - Origem dos dados <br>

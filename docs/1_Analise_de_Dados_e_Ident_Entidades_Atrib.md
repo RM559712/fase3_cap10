@@ -88,3 +88,42 @@ relevantes para análise agrícola.
 - **Levantamento - Produção**: Relacionamento 1:N, onde um levantamento pode ter múltiplas produções registradas.
 
 Essas entidades e seus relacionamentos proporcionam uma estrutura lógica e organizada para análise agrícola, facilitando consultas detalhadas sobre safras, regiões e produtos ao longo dos anos agrícolas.
+
+# Plus - Análise de Relacionamentos e Cardinalidades
+
+## 1. Relacionamento entre T_PRODUTO e T_PRODUCAO_ANUAL
+- **Descrição**: Um produto (grão) pode ter várias produções anuais associadas a ele, pois cada ano pode ter uma estimativa de produção para diferentes produtos.
+- **Cardinalidade**:
+  - Cada registro de `T_PRODUTO` pode estar associado a muitos registros em `T_PRODUCAO_ANUAL`.
+  - Em termos de cardinalidade:  
+    **T_PRODUTO (1) — (N) T_PRODUCAO_ANUAL**
+
+## 2. Relacionamento entre T_SAFRA e T_PRODUCAO_ANUAL
+- **Descrição**: Cada safra representa um período específico e pode ter várias produções associadas a ela, uma para cada produto ou estado, se disponível.
+- **Cardinalidade**:
+  - Cada registro em `T_SAFRA` pode estar associado a muitos registros em `T_PRODUCAO_ANUAL`, pois uma safra pode ter registros de produção para diferentes produtos e estados.
+  - Em termos de cardinalidade:  
+    **T_SAFRA (1) — (N) T_PRODUCAO_ANUAL**
+
+## 3. Relacionamento entre T_PRODUTO e T_PRODUCAO_HISTORICA
+- **Descrição**: Um produto (grão) pode ter várias produções ao longo do tempo, registradas na série histórica, o que significa que múltiplos anos de dados podem estar vinculados ao mesmo produto.
+- **Cardinalidade**:
+  - Cada registro de `T_PRODUTO` pode estar associado a muitos registros em `T_PRODUCAO_HISTORICA`.
+  - Em termos de cardinalidade:  
+    **T_PRODUTO (1) — (N) T_PRODUCAO_HISTORICA**
+
+## 4. Relacionamento entre T_SAFRA e T_PRODUCAO_HISTORICA
+- **Descrição**: Cada safra pode ter múltiplas produções históricas registradas para ela, dependendo do produto e do estado/região, abrangendo vários anos.
+- **Cardinalidade**:
+  - Cada registro em `T_SAFRA` pode estar associado a muitos registros em `T_PRODUCAO_HISTORICA`.
+  - Em termos de cardinalidade:  
+    **T_SAFRA (1) — (N) T_PRODUCAO_HISTORICA**
+
+## Resumo das Cardinalidades
+- **T_PRODUTO (1) — (N) T_PRODUCAO_ANUAL**
+- **T_SAFRA (1) — (N) T_PRODUCAO_ANUAL**
+- **T_PRODUTO (1) — (N) T_PRODUCAO_HISTORICA**
+- **T_SAFRA (1) — (N) T_PRODUCAO_HISTORICA**
+
+Esses relacionamentos indicam que um único produto ou safra pode estar relacionado a várias produções, seja em estimativas anuais ou na série histórica, sem que haja redundância. Essa estrutura permite que os dados sejam armazenados de maneira eficiente e organizada, facilitando consultas específicas sobre produções ao longo dos anos ou por safra.
+
