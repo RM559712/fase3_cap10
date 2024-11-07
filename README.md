@@ -39,7 +39,7 @@ By Grupo 26 - Entrega até 13/11/2024
     o	Próximo passo: Criar o dicionário de dados que documentará o modelo final.
 ________________________________________
 
-Entregáveis:
+Entregáveis:<br>
 •	Diagrama Entidade-Relacionamento (MER)<br>
 •	Diagrama do Modelo Relacional<br>
 •	Código SQL para criação das tabelas<br>
@@ -48,18 +48,18 @@ Entregáveis:
 
 **Estrutura de Diretório**
 
-**imgs** - Imagens disponiveis dos exercicios listados acima 
-**source_data** - Origem dos dados
-    - LevantamentoGraos.txt - https://portaldeinformacoes.conab.gov.br/downloads/arquivos/LevantamentoGraos.txt
-    - SerieHistoricaGraos.txt - https://portaldeinformacoes.conab.gov.br/downloads/arquivos/SerieHistoricaGraos.txt
-    - source_data.zip - Arquivos acima compactados
-**sql_modeler_file** - Arquivos relacionados ao Oracle Data Modeler 
-**sql_scripts** - Scripts utilizados para a criação do banco, consultas e deleção dos dados
-    - consulta_evolucao_de_area_plantada.sql - Arquivo relacionado ao item 7 
-    - consulta_producao_total_por_estado.sql - Arquivo relacionado ao item 7 
-    - consulta_produtividade_ano_estado.sql - Arquivo relacionado ao item 7
-    - data_modeler_producao_agricola.sql - Arquivo de criação do banco - Export do Data Modeler 
-    - create_dat_producao_agricola.sql - Arquivo de criação do banco de dados antes da normalizacao
-**docs** - Arquivos com informações sobre cada exercicio por ordem listada na descricao dos exercicios
+**imgs** - Imagens disponiveis dos exercicios listados acima <br>
+**source_data** - Origem dos dados <br>
+    - LevantamentoGraos.txt - https://portaldeinformacoes.conab.gov.br/downloads/arquivos/LevantamentoGraos.txt<br>
+    - SerieHistoricaGraos.txt - https://portaldeinformacoes.conab.gov.br/downloads/arquivos/SerieHistoricaGraos.txt <br>
+    - source_data.zip - Arquivos acima compactados <br>
+**sql_modeler_file** - Arquivos relacionados ao Oracle Data Modeler <br>
+**sql_scripts** - Scripts utilizados para a criação do banco, consultas e deleção dos dados <br>
+    - consulta_evolucao_de_area_plantada.sql - Arquivo relacionado ao item 7 <br>
+    - consulta_producao_total_por_estado.sql - Arquivo relacionado ao item 7 <br>
+    - consulta_produtividade_ano_estado.sql - Arquivo relacionado ao item 7<br>
+    - data_modeler_producao_agricola.sql - Arquivo de criação do banco - Export do Data Modeler <br>
+    - create_dat_producao_agricola.sql - Arquivo de criação do banco de dados antes da normalizacao<br>
+**docs** - Arquivos com informações sobre cada exercicio por ordem listada na descricao dos exercicios<br>
     - Analise de dados e Identificacao de Entidades e Atributos [docs/1_Analise_de_Dados_e_Ident_Entidades_Atrib.md]
 
