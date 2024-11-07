@@ -60,4 +60,6 @@ Entregáveis:
     - consulta_produtividade_ano_estado.sql - Arquivo relacionado ao item 7
     - data_modeler_producao_agricola.sql - Arquivo de criação do banco - Export do Data Modeler 
     - create_dat_producao_agricola.sql - Arquivo de criação do banco de dados antes da normalizacao
+**docs** - Arquivos com informações sobre cada exercicio por ordem listada na descricao dos exercicios
+    - Analise de dados e Identificacao de Entidades e Atributos [docs/1_Analise_de_Dados_e_Ident_Entidades_Atrib.md]
     
