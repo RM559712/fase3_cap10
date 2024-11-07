@@ -1,7 +1,7 @@
 1TIAOR-2024-GRP100 - Fase 3 - Cap 10 - Explorando SQL e tipos de dados na Oracle 
 By Grupo 26 - Entrega até 13/11/2024
 
-1.	![Análise de Dados e Identificação de Entidades e Atributos](https://github.com/RM559712/fase3_cap10/blob/main/docs/1_Analise_de_Dados_e_Ident_Entidades_Atrib.md)  
+1.	[Análise de Dados e Identificação de Entidades e Atributos](https://github.com/RM559712/fase3_cap10/blob/main/docs/1_Analise_de_Dados_e_Ident_Entidades_Atrib.md)  
     
 2.	Criação do Modelo Conceitual (MER)  
     o	Criaremos um Modelo Entidade-Relacionamento (MER), destacando as entidades principais (como Produto, Safra, Producao_Anual e Producao_Historica) 
