@@ -1,4 +1,4 @@
-### **Origem dos Dados** 
+## **Origem dos Dados** 
 
 CONAB - Link de acesso a area de downloads  
 https://portaldeinformacoes.conab.gov.br/download-arquivos.html  
@@ -8,7 +8,7 @@ Os arquivos coletados para a implementação da base de dados foram:
     https://portaldeinformacoes.conab.gov.br/downloads/arquivos/SerieHistoricaGraos.txt  
     Os arquivos também estão salvos em [../source_data/]  
 
-**Analise de dados**  
+## **Analise de dados**  
 Arquivo: Levantamento de Grãos  
 •	ano_agricola: Ano agrícola (objeto)  
 •	safra: Tipo de safra (objeto)  
@@ -20,21 +20,21 @@ Arquivo: Levantamento de Grãos
 •	area_plantada_mil_ha: Área plantada em mil hectares (float)  
 •	producao_mil_t: Produção em mil toneladas (float)  
 •	produtividade_mil_ha_mil_t: Produtividade em mil hectares por mil toneladas (float)  
-       Arquivo: Série Histórica de Grãos
-•	ano_agricola: Ano agrícola (objeto)
-•	dsc_safra_previsao: Descrição da safra ou previsão (objeto)
-•	uf: Unidade federativa (estado) (objeto)
-•	produto: Nome do produto agrícola (objeto)
-•	id_produto: Identificador numérico do produto (inteiro)
-•	area_plantada_mil_ha: Área plantada em mil hectares (float)
-•	producao_mil_t: Produção em mil toneladas (float)
-•	produtividade_mil_ha_mil_t: Produtividade em mil hectares por mil toneladas (float)
+       Arquivo: Série Histórica de Grãos  
+•	ano_agricola: Ano agrícola (objeto)  
+•	dsc_safra_previsao: Descrição da safra ou previsão (objeto)  
+•	uf: Unidade federativa (estado) (objeto)  
+•	produto: Nome do produto agrícola (objeto)  
+•	id_produto: Identificador numérico do produto (inteiro)  
+•	area_plantada_mil_ha: Área plantada em mil hectares (float)  
+•	producao_mil_t: Produção em mil toneladas (float)  
+•	produtividade_mil_ha_mil_t: Produtividade em mil hectares por mil toneladas (float)  
 
 Para definir as principais entidades e seus relacionamentos, partimos das colunas presentes nos arquivos "Levantamento de Grãos" e 
 "Série Histórica de Grãos". As entidades serão estruturadas para representar as informações de maneira eficiente e permitir consultas 
 relevantes para análise agrícola.
 
-### 1. Entidades e Atributos
+## 1. Entidades e Atributos
 
 #### **Entidade: AnoAgricola**
 - **Descrição**: Representa o ano agrícola, pois ele serve como uma base temporal para os dados.
@@ -79,7 +79,7 @@ relevantes para análise agrícola.
   - `id_produto`: Chave estrangeira para a entidade `Produto` (FK)
   - `id_levantamento`: Chave estrangeira para a entidade `Levantamento` (FK)
 
-### 2. Relacionamentos
+## 2. Relacionamentos
 
 - **AnoAgricola - Produção**: Relacionamento 1:N, onde um ano agrícola pode ter múltiplas entradas de produção.
 - **Safra - Produção**: Relacionamento 1:N, onde uma safra pode estar associada a várias produções de diferentes produtos e regiões.
