@@ -1,6 +1,5 @@
 ## Aplicação das Regras de Normalização
 
-### Aplicação das Regras de Normalização
 Aplique as regras de normalização para garantir que o modelo não tenha redundâncias e esteja livre de anomalias de atualização.
 
 ### 1ª Forma Normal (1FN): Remover atributos multivalorados e garantir que cada campo contenha valores atômicos.
@@ -15,7 +14,7 @@ Para tornar o atributo `ano_agricola` totalmente atômico e evitar que seja trat
 - `ano_fim`: Representa o ano final (último ano do período).
 
 **Atualização do Modelo**  
-Após essa alteração, a tabela `T_ANO_AGRICOLA` ficaria assim:
+Após essa alteração, a tabela `T_ANO_AGRICOLA` ficaria assim:  
 ----------------------------------------------------------------
 | Coluna            | Descrição                                |
 |-------------------|------------------------------------------|

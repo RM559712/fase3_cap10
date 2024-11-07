@@ -4,15 +4,15 @@ By Grupo 26 - Entrega até 13/11/2024
 1.	[Análise de Dados e Identificação de Entidades e Atributos](https://github.com/RM559712/fase3_cap10/blob/main/docs/1_Analise_de_Dados_e_Ident_Entidades_Atrib.md)  
     
 2.	Criação do Modelo Conceitual (MER)  
-        - Criaremos um Modelo Entidade-Relacionamento (MER), destacando as entidades principais (como Produto, Safra, Producao_Anual e Producao_Historica) 
-          e os relacionamentos entre elas.  
+- Criaremos um Modelo Entidade-Relacionamento (MER), destacando as entidades principais (como Produto, Safra, Producao_Anual e Producao_Historica) 
+  e os relacionamentos entre elas.  
     ![Diagrama MER](https://github.com/RM559712/fase3_cap10/blob/main/imgs/MER_Logical_Image_07Nov24v1.png)
 
 3.	[Aplicação das Regras de Normalização](https://github.com/RM559712/fase3_cap10/blob/main/docs/2_Modelo_Conceitual_MER.md)
    
 4.	Conversão para o Modelo Lógico Relacional
-    o	Baseando-se no MER normalizado, crie o Modelo Relacional, convertendo as entidades e relacionamentos do MER para um modelo lógico com tabelas relacionais.
-    o	Próximo passo: Desenvolver o diagrama do modelo relacional.
+- Baseando-se no MER normalizado, crie o Modelo Relacional, convertendo as entidades e relacionamentos do MER para um modelo lógico com tabelas relacionais.
+![Diagrama do Modelo Relacional]()
 
 5.	Definição da Nomenclatura Padronizada
     o	Criar uma padronização para os nomes das tabelas e colunas, como tb_produto, id_produto, nome_produto, etc., garantindo que a estrutura seja fácil de entender e mantenha consistência.
