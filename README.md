@@ -62,6 +62,8 @@ By Grupo 26 - Entrega até 13/11/2024
   - **data_modeler_producao_agricola.sql** - Arquivo de criação do banco - Export do Data Modeler  
   - **create_dat_producao_agricola.sql** - Arquivo de criação do banco de dados antes da normalização
 
+  - **sql_scripts/resultados**
+  - Arquivos relacionados aos resultados das consultas SQL 
+
 - **docs**  
   - Arquivos com informações sobre cada exercício por ordem listada na descrição dos exercícios  
-    - **Análise de dados e Identificação de Entidades e Atributos** - [Link para o documento](docs/1_Analise_de_Dados_e_Ident_Entidades_Atrib.md)
