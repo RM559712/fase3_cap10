@@ -18,7 +18,7 @@ By Grupo 26 - Entrega até 13/11/2024
 
 5.	Definição da Nomenclatura Padronizada
 - Criar uma padronização para os nomes das tabelas e colunas, como tb_produto, id_produto, nome_produto, etc., garantindo que a estrutura seja fácil de entender e   mantenha consistência.
-- [Nomenclatura para cada entidade e seus atributos.]()
+- [Nomenclatura para cada entidade e seus atributos.](https://github.com/RM559712/fase3_cap10/blob/main/docs/5_Nomenclatura_Entidades_Atributos.md)
 
 6.	Código SQL para Criação das Tabelas
 - Escrever o código SQL para a criação das tabelas, definindo chaves primárias e estrangeiras, além das restrições de integridade para garantir consistência nos dados.
