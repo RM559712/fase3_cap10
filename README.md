@@ -44,18 +44,24 @@ By Grupo 26 - Entrega até 13/11/2024
 
 # **Estrutura de Diretório**
 
-**imgs** - Imagens disponiveis dos exercicios listados acima  
-**source_data** - Origem dos dados  
-    - LevantamentoGraos.txt - https://portaldeinformacoes.conab.gov.br/downloads/arquivos/LevantamentoGraos.txt  
-    - SerieHistoricaGraos.txt - https://portaldeinformacoes.conab.gov.br/downloads/arquivos/SerieHistoricaGraos.txt  
-    - source_data.zip - Arquivos acima compactados  
-**sql_modeler_file** - Arquivos relacionados ao Oracle Data Modeler  
-**sql_scripts** - Scripts utilizados para a criação do banco, consultas e deleção dos dados  
-    - consulta_evolucao_de_area_plantada.sql - Arquivo relacionado ao item 7  
-    - consulta_producao_total_por_estado.sql - Arquivo relacionado ao item 7  
-    - consulta_produtividade_ano_estado.sql - Arquivo relacionado ao item 7  
-    - data_modeler_producao_agricola.sql - Arquivo de criação do banco - Export do Data Modeler  
-    - create_dat_producao_agricola.sql - Arquivo de criação do banco de dados antes da normalizacao  
-**docs** - Arquivos com informações sobre cada exercicio por ordem listada na descricao dos exercicios  
-    - Analise de dados e Identificacao de Entidades e Atributos [docs/1_Analise_de_Dados_e_Ident_Entidades_Atrib.md]  
+- **imgs**  
+  - Imagens disponíveis dos exercícios listados acima
 
+- **source_data**  
+  - **LevantamentoGraos.txt** - [Link para o arquivo](https://portaldeinformacoes.conab.gov.br/downloads/arquivos/LevantamentoGraos.txt)  
+  - **SerieHistoricaGraos.txt** - [Link para o arquivo](https://portaldeinformacoes.conab.gov.br/downloads/arquivos/SerieHistoricaGraos.txt)  
+  - **source_data.zip** - Arquivos acima compactados
+
+- **sql_modeler_file**  
+  - Arquivos relacionados ao Oracle Data Modeler
+
+- **sql_scripts**  
+  - **consulta_evolucao_de_area_plantada.sql** - Arquivo relacionado ao item 7  
+  - **consulta_producao_total_por_estado.sql** - Arquivo relacionado ao item 7  
+  - **consulta_produtividade_ano_estado.sql** - Arquivo relacionado ao item 7  
+  - **data_modeler_producao_agricola.sql** - Arquivo de criação do banco - Export do Data Modeler  
+  - **create_dat_producao_agricola.sql** - Arquivo de criação do banco de dados antes da normalização
+
+- **docs**  
+  - Arquivos com informações sobre cada exercício por ordem listada na descrição dos exercícios  
+    - **Análise de dados e Identificação de Entidades e Atributos** - [Link para o documento](docs/1_Analise_de_Dados_e_Ident_Entidades_Atrib.md)
