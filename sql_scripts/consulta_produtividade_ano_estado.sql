@@ -1,27 +1,34 @@
+-- Título: Produtividade Média de MILHO por Estado e Ano com Anos como Colunas
+-- Descrição: Este script calcula a produtividade média de MILHO por estado,
+--            organiza os anos em colunas e exibe a média por ano e estado.
+-- Data: 08/11/2024
+-- Hora: 18:00
+
+-- Exibe o título da tabela
+SELECT 'Produtividade Ano x Estado' AS "Título" FROM dual;
+
+-- Cálculo da produtividade média de MILHO por estado e ano
 SELECT 
-    ano."num_ano_inicio" AS "Ano",  -- Seleciona o ano de início da safra, renomeando a coluna como "Ano" para facilitar a leitura.
-    uf."sig_uf" AS "Estado",        -- Seleciona a sigla do estado (UF) e a renomeia como "Estado".
-    ROUND(AVG(prod."qtd_produtividade_mil_ha_mil_t"), 2) AS "Produtividade Média (Mil Hectares/Mil Toneladas)"
-    -- Calcula a produtividade média de cada estado em cada ano, arredondando o valor para 2 casas decimais
-    -- e renomeia a coluna como "Produtividade Média (Mil Hectares/Mil Toneladas)".
+    uf."sig_uf" AS "Estado",
+    ROUND(AVG(CASE WHEN ano."num_ano_inicio" = 2017 THEN prod."qtd_produtividade_mil_ha_mil_t" END), 2) AS "2017",
+    ROUND(AVG(CASE WHEN ano."num_ano_inicio" = 2018 THEN prod."qtd_produtividade_mil_ha_mil_t" END), 2) AS "2018",
+    ROUND(AVG(CASE WHEN ano."num_ano_inicio" = 2019 THEN prod."qtd_produtividade_mil_ha_mil_t" END), 2) AS "2019",
+    ROUND(AVG(CASE WHEN ano."num_ano_inicio" = 2020 THEN prod."qtd_produtividade_mil_ha_mil_t" END), 2) AS "2020",
+    ROUND(AVG(CASE WHEN ano."num_ano_inicio" = 2021 THEN prod."qtd_produtividade_mil_ha_mil_t" END), 2) AS "2021",
+    ROUND(AVG(CASE WHEN ano."num_ano_inicio" = 2022 THEN prod."qtd_produtividade_mil_ha_mil_t" END), 2) AS "2022",
+    ROUND(AVG(CASE WHEN ano."num_ano_inicio" = 2023 THEN prod."qtd_produtividade_mil_ha_mil_t" END), 2) AS "2023",
+    ROUND(AVG(CASE WHEN ano."num_ano_inicio" = 2024 THEN prod."qtd_produtividade_mil_ha_mil_t" END), 2) AS "2024"
 FROM 
-    T_PRODUCAO prod                -- Tabela que contém os dados de produção, incluindo área plantada e produtividade.
+    T_PRODUCAO prod
 JOIN 
     T_ANO_AGRICOLA ano ON prod."idt_ano_agricola" = ano."idt_ano_agricola"
-    -- Realiza uma junção com a tabela T_ANO_AGRICOLA para obter o ano de início e fim da safra.
-    -- Relaciona as tabelas usando a coluna idt_ano_agricola como chave estrangeira.
 JOIN 
     T_UF uf ON prod."idt_uf" = uf."idt_uf"
-    -- Realiza uma junção com a tabela T_UF para obter a sigla do estado.
-    -- Relaciona as tabelas usando a coluna idt_uf como chave estrangeira.
 JOIN 
     T_PRODUTO produto ON prod."idt_produto" = produto."idt_produto"
-    -- Realiza uma junção com a tabela T_PRODUTO para obter o nome do produto.
-    -- Relaciona as tabelas usando a coluna idt_produto como chave estrangeira.
 WHERE 
-    produto."nom_produto" LIKE '%MILHO%'  -- Filtra os registros para incluir apenas aqueles onde o nome do produto contém "MILHO".
+    produto."nom_produto" LIKE '%MILHO%'  -- Filtra registros para incluir apenas MILHO
 GROUP BY 
-    ano."num_ano_inicio", uf."sig_uf"     -- Agrupa os resultados por ano e estado para calcular a produtividade média de cada combinação.
+    uf."sig_uf"  -- Agrupa os resultados por estado para mostrar a média por ano e estado
 ORDER BY 
-    "Ano" ASC,                            -- Ordena os resultados por ano em ordem crescente.
-    "Produtividade Média (Mil Hectares/Mil Toneladas)" DESC; -- Dentro de cada ano, ordena os estados pela produtividade média em ordem decrescente.
+    uf."sig_uf";  -- Ordena os resultados alfabeticamente por estado

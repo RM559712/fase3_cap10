@@ -1,24 +1,26 @@
+-- Título: Produção Total de MILHO por Ano
+-- Descrição: Este script calcula a produção total de MILHO em mil toneladas para todos os estados combinados,
+--            somando os valores de produção para cada ano agrícola.
+-- Data: 08/11/2024
+-- Hora: 16:00
+
 SELECT 
-    prod."idt_producao",                         -- Identificador único para cada registro de produção.
-    prod."qtd_area_plantada_mil_ha",             -- Quantidade de área plantada em mil hectares.
-    prod."qtd_producao_mil_t",                   -- Quantidade total de produção em mil toneladas.
-    prod."qtd_produtividade_mil_ha_mil_t",       -- Produtividade em mil hectares por mil toneladas.
-    prod."idt_ano_agricola",                     -- Identificador do ano agrícola, usado como chave estrangeira.
-    ano."num_ano_inicio",                        -- Ano de início do ano agrícola, vindo de T_ANO_AGRICOLA.
-    ano."num_ano_fim",                           -- Ano de fim do ano agrícola, também de T_ANO_AGRICOLA.
-    prod."idt_safra",                            -- Identificador da safra, usado para categorizar o tipo de safra.
-    prod."idt_uf",                               -- Identificador do estado, usado como chave estrangeira.
-    prod."idt_produto",                          -- Identificador do produto, usado como chave estrangeira.
-    produto."nom_produto"                        -- Nome do produto, vindo de T_PRODUTO.
+    ano."num_ano_inicio" AS "Ano Início",                         -- Ano de início do ano agrícola
+    ano."num_ano_fim" AS "Ano Fim",                               -- Ano de fim do ano agrícola
+    'MILHO' AS "Cultura",                                         -- Nome da cultura para identificar os dados
+    ROUND(SUM(prod."qtd_producao_mil_t"), 2) AS "Produção Total de MILHO (Mil Toneladas)"
+    -- Soma a quantidade total de produção em mil toneladas para MILHO em todos os estados e arredonda para 2 casas decimais
 FROM 
-    T_PRODUCAO prod                               -- Tabela principal contendo os dados de produção.
+    T_PRODUCAO prod                                               -- Tabela principal contendo os dados de produção
 JOIN 
     T_PRODUTO produto ON prod."idt_produto" = produto."idt_produto"
-    -- Realiza uma junção entre T_PRODUCAO e T_PRODUTO para obter o nome do produto.
+    -- Junção com T_PRODUTO para obter o nome do produto
 JOIN 
     T_ANO_AGRICOLA ano ON prod."idt_ano_agricola" = ano."idt_ano_agricola"
-    -- Realiza uma junção entre T_PRODUCAO e T_ANO_AGRICOLA para obter o ano de início e o ano de fim da safra.
+    -- Junção com T_ANO_AGRICOLA para obter o ano de início e fim da safra
 WHERE 
-    produto."nom_produto" LIKE '%MILHO%'          -- Filtra registros que contenham a palavra "MILHO" no nome do produto.
-    AND ano."num_ano_inicio" = 2021               -- Filtra para o ano de início da safra igual a 2021.
-    AND ano."num_ano_fim" = 2022;                 -- Filtra para o ano de fim da safra igual a 2022.
+    produto."nom_produto" LIKE '%MILHO%'                          -- Filtra registros que contenham "MILHO" no nome do produto
+GROUP BY 
+    ano."num_ano_inicio", ano."num_ano_fim"                       -- Agrupa por ano agrícola (início e fim)
+ORDER BY 
+    "Ano Início" ASC;                                             -- Ordena os resultados em ordem cronológica

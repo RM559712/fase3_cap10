@@ -2,7 +2,8 @@
 # Dicionário de Dados
 
 ## Tabela: T_PRODUCAO
-**Descrição:** Armazena os dados de produção agrícola, incluindo área plantada, produção, produtividade e referências ao ano agrícola, safra, estado e produto.
+**Descrição:** Armazena os dados de produção agrícola, incluindo área plantada, produção, produtividade e referências ao ano 
+agrícola, safra, estado e produto.
 
 | Coluna                           | Tipo de Dados | Tamanho | Constraint | Descrição                                                               |
 |----------------------------------|---------------|---------|------------|-------------------------------------------------------------------------|
