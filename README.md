@@ -10,7 +10,7 @@ By Grupo 26 - Entrega até 13/11/2024
   e os relacionamentos entre elas.  
     ![Diagrama MER](https://github.com/RM559712/fase3_cap10/blob/main/imgs/MER_Logical_Image_07Nov24v1.png)
 
-3.	[Aplicação das Regras de Normalização](https://github.com/RM559712/fase3_cap10/blob/main/docs/2_Modelo_Conceitual_MER.md)
+3.	[Aplicação das Regras de Normalização](https://github.com/RM559712/fase3_cap10/blob/main/docs/3_Aplicando_Normalizacao.md)
    
 4.	Conversão para o Modelo Lógico Relacional
 - Baseando-se no MER normalizado, crie o Modelo Relacional, convertendo as entidades e relacionamentos do MER para um modelo lógico com tabelas relacionais.
