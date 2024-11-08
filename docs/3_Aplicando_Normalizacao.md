@@ -43,7 +43,7 @@ SET
 
 -- 3. Remover a coluna txt_ano_agricola após a migração
 ALTER TABLE T_ANO_AGRICOLA DROP COLUMN "txt_ano_agricola";
-```sql
+```
 
 ## 2ª Forma Normal (2FN): Eliminar dependências parciais
 
