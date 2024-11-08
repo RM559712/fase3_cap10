@@ -13,8 +13,8 @@ By Grupo 26 - Entrega até 13/11/2024
 3.	[Aplicação das Regras de Normalização](https://github.com/RM559712/fase3_cap10/blob/main/docs/3_Aplicando_Normalizacao.md)
    
 4.	Conversão para o Modelo Lógico Relacional
-- Baseando-se no MER normalizado, crie o Modelo Relacional, convertendo as entidades e relacionamentos do MER para um modelo lógico com tabelas relacionais.
-![Diagrama do Modelo Relacional](https://github.com/RM559712/fase3_cap10/blob/main/imgs/Relational_Image_07Nov24v1.png)
+- Baseando-se no MER normalizado, crie o Modelo Relacional, convertendo as entidades e relacionamentos do MER para um modelo lógico com tabelas relacionais.  
+![Diagrama do Modelo Relacional](https://github.com/RM559712/fase3_cap10/blob/main/imgs/Relational_Image_07Nov24v1.png)  
 
 5.	Definição da Nomenclatura Padronizada
 - Criar uma padronização para os nomes das tabelas e colunas, como tb_produto, id_produto, nome_produto, etc., garantindo que a estrutura seja fácil de entender e   mantenha consistência.
