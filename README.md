@@ -33,7 +33,7 @@ By Grupo 26 - Entrega até 13/11/2024
 
 8.	Documentação com Dicionário de Dados
 - Descrever cada tabela e seus atributos, incluindo tipos de dados, restrições e propósito de cada coluna.
-- [Dicionário de dados que documentará o modelo final.]()
+- [Dicionário de dados que documentará o modelo final.](https://github.com/RM559712/fase3_cap10/blob/main/docs/8_Dicionario_de_Dados.md)
 
 # Resumo dos Entregáveis:  (Checkpoint)
 - Diagrama Entidade-Relacionamento (MER)  <span style="color: green;">✔️ OK - Tarefa concluída</span>
