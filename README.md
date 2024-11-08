@@ -29,7 +29,7 @@ By Grupo 26 - Entrega até 13/11/2024
     Produção total de uma cultura por estado em uma safra.
     Evolução da área plantada de uma cultura ao longo dos anos.
     Ranking dos estados com maior produtividade em uma cultura específica.
-- [Escrever e testar essas consultas SQL.]()
+- [Escrever e testar essas consultas SQL.](https://github.com/RM559712/fase3_cap10/blob/main/docs/7_Consultas_SQL_para_Analise_dos_Dados.md)
 
 8.	Documentação com Dicionário de Dados
     o	Descrever cada tabela e seus atributos, incluindo tipos de dados, restrições e propósito de cada coluna.
