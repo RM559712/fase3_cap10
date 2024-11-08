@@ -4,6 +4,9 @@
 -- Data: 08/11/2024
 -- Hora: 17:10
 
+-- Exibe o título do output
+SELECT 'Produção Total de MILHO por Estado com Soma de Todos os Estados' AS "Título" FROM dual;
+
 SELECT 
     uf."sig_uf" AS "Estado",                                      -- Sigla do estado para identificação
     'MILHO' AS "Cultura",                                         -- Nome da cultura para identificar o produto

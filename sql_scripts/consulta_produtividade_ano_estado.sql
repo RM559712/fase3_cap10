@@ -5,7 +5,7 @@
 -- Hora: 18:00
 
 -- Exibe o título da tabela
-SELECT 'Produtividade Ano x Estado' AS "Título" FROM dual;
+SELECT 'Produtividade Ano x Estado - Mil HA x Mil T' AS "Título" FROM dual;
 
 -- Cálculo da produtividade média de MILHO por estado e ano
 SELECT 

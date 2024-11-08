@@ -1,0 +1,44 @@
+
+Título                                                         
+---------------------------------------------------------------
+Produção Total de MILHO por Estado com Soma de Todos os Estados
+
+
+Es Cultura                Primeiro Ano Último Ano Produção (Mil Toneladas)
+-- ---------------------- ------------ ---------- ------------------------
+   Total produção - MILHO         2017       2025                  8998468
+MT MILHO                          2017       2025                  3132180
+PR MILHO                          2017       2025                  1365122
+GO MILHO                          2017       2025                   925969
+MS MILHO                          2017       2025                   846632
+MG MILHO                          2017       2025                   638376
+RS MILHO                          2017       2025                   399298
+SP MILHO                          2017       2025                   369549
+BA MILHO                          2017       2025                   224208
+SC MILHO                          2017       2025                   214884
+MA MILHO                          2017       2025                   201234
+
+Es Cultura                Primeiro Ano Último Ano Produção (Mil Toneladas)
+-- ---------------------- ------------ ---------- ------------------------
+PI MILHO                          2017       2025                   175800
+TO MILHO                          2017       2025                   124581
+RO MILHO                          2017       2025                    95459
+PA MILHO                          2017       2025                    91346
+SE MILHO                          2017       2025                    67223
+CE MILHO                          2017       2025                    40777
+DF MILHO                          2017       2025                    38165
+PE MILHO                          2017       2025                    12117
+AC MILHO                          2017       2025                     8639
+AL MILHO                          2017       2025                     6430
+RR MILHO                          2017       2025                     6163
+
+Es Cultura                Primeiro Ano Último Ano Produção (Mil Toneladas)
+-- ---------------------- ------------ ---------- ------------------------
+PB MILHO                          2017       2025                     6080
+ES MILHO                          2017       2025                     3245
+RN MILHO                          2017       2025                     2421
+AM MILHO                          2017       2025                     1981
+RJ MILHO                          2017       2025                      450
+AP MILHO                          2017       2025                      140
+
+28 rows selected. 

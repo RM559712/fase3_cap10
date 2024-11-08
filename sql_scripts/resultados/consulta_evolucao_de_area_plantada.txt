@@ -1,0 +1,18 @@
+Título                                                                        
+------------------------------------------------------------------------------
+Evolução da Área Plantada de MILHO por Ano com Percentual de Crescimento/Perda
+
+
+Ano Início    Ano Fim Cultura                     Área Plantada (Mil Hectares) Variação %                                 
+---------- ---------- --------------------------- ---------------------------- -------------------------------------------
+      2017       2018 MILHO                                             201054 N/A                                        
+      2018       2019 MILHO                                             204593 +1.76 %                                    
+      2019       2020 MILHO                                             216689 +5.91 %                                    
+      2020       2021 MILHO                                             231379 +6.78 %                                    
+      2021       2022 MILHO                                             254880 +10.16 %                                   
+      2022       2023 MILHO                                             266175 +4.43 %                                    
+      2023       2024 MILHO                                             249950 -6.1 %                                     
+      2024       2025 MILHO                                              21002 -91.6 %                                    
+                      Total área plantada - MILHO                      1645722                                            
+
+9 rows selected. 
