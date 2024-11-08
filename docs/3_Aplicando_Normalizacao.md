@@ -1,8 +1,8 @@
-## Aplicação das Regras de Normalização
+# Aplicação das Regras de Normalização
 
 Aplique as regras de normalização para garantir que o modelo não tenha redundâncias e esteja livre de anomalias de atualização.
 
-### 1ª Forma Normal (1FN): Remover atributos multivalorados e garantir que cada campo contenha valores atômicos.
+## 1ª Forma Normal (1FN): Remover atributos multivalorados e garantir que cada campo contenha valores atômicos.
 
 - **Tabela T_ANO_AGRICOLA**: O campo `txt_ano_agricola` representa, em alguns casos, um ano de início e um ano de fim, sendo considerado multivalorado.
 - Na tabela `T_ANO_AGRICOLA`, o atributo `ano_agricola` possui o ano agrícola no formato `"yyyy/yy"` (por exemplo, "2017/18"), representando um intervalo entre um ano inicial e um ano final. Embora o valor seja armazenado como uma única string, ele carrega mais de uma informação (ano inicial e ano final).
@@ -44,7 +44,7 @@ SET
 -- 3. Remover a coluna txt_ano_agricola após a migração
 ALTER TABLE T_ANO_AGRICOLA DROP COLUMN "txt_ano_agricola";
 
-### 2ª Forma Normal (2FN): Eliminar dependências parciais
+## 2ª Forma Normal (2FN): Eliminar dependências parciais
 
 Para garantir que tabelas com chaves compostas tenham todos os atributos dependentes completamente de sua chave primária.
 
@@ -52,7 +52,7 @@ Para garantir que tabelas com chaves compostas tenham todos os atributos depende
   - Nenhuma das tabelas atuais possui chave composta (todas têm uma chave primária simples), então não há dependências parciais.
   - Com isso, o modelo já está em 2ª Forma Normal.
 
-### 3ª Forma Normal (3FN): Eliminar dependências transitivas
+## 3ª Forma Normal (3FN): Eliminar dependências transitivas
 
 Elimine dependências onde um atributo não chave depende de outro atributo não chave.
 
