@@ -1,5 +1,6 @@
-1TIAOR-2024-GRP100 - Fase 3 - Cap 10 - Explorando SQL e tipos de dados na Oracle 
-By Grupo 26 - Entrega até 13/11/2024
+Fase 3 - Cap 10 - Explorando SQL e tipos de dados na Oracle  
+Grupo 26 - Entrega até 13/11/2024  
+Licença: GNU GENERAL PUBLIC LICENSE Version 2
 
 # Passos para cada entrega
 
